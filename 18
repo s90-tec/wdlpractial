@@ -1,0 +1,14 @@
+18. School Admission Webpage
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="color:blue">School Admission</h1>
+<img src="school.jpg" width="150">
+<br><br>
+<a href="https://www.google.com">School Website</a>
+<?php
+$name="rahul";
+echo strtoupper($name);
+?>
+</body>
+</html>
