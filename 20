@@ -1,0 +1,22 @@
+20. Hostel Registration Form
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validate(){
+var n=document.f1.name.value;
+if(n==""){
+alert("Enter Name");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form name="f1" method="post" onsubmit="return validate()">
+Name:<input type="text" name="name"><br><br>
+Room:<input type="text" name="room"><br><br>
+<input type="submit">
+</form>
+</body>
+</html>
