@@ -1,0 +1,40 @@
+2. Student Registration Form
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+form{
+width:300px;
+margin:auto;
+background:#eee;
+padding:20px;
+}
+</style>
+<script>
+function validate(){
+var n=document.f1.name.value;
+if(n==""){
+alert("Enter Name");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form name="f1" method="post" onsubmit="return validate()">
+Name:<input type="text" name="name"><br><br>
+Email:<input type="email" name="email"><br><br>
+Gender:
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female<br><br>
+DOB:<input type="date" name="dob"><br><br>
+Mobile:<input type="text" name="mobile"><br><br>
+<input type="submit">
+</form>
+<?php
+if($_POST){
+echo $_POST['name'];
+}
+?>
+</body>
+</html>
