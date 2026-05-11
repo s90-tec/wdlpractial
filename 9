@@ -1,0 +1,29 @@
+9. Product Advertisement Webpage
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function show(){
+var p=document.getElementById("p").value;
+document.getElementById("ans").innerHTML=p;
+}
+</script>
+</head>
+<body>
+<table border="1">
+<tr>
+<th>Product</th>
+<th>Image</th>
+</tr>
+<tr>
+<td>Mobile</td>
+<td><img src="mobile.jpg" width="100"></td>
+</tr>
+</table>
+<select id="p" onchange="show()">
+<option>Mobile</option>
+<option>Laptop</option>
+</select>
+<h3 id="ans"></h3>
+</body>
+</html>
