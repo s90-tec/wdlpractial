@@ -1,0 +1,18 @@
+10. Event Registration Form
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validate(){
+alert("Registration Successful");
+}
+</script>
+</head>
+<body>
+<form method="post" onsubmit="validate()">
+Name:<input type="text" name="name"><br><br>
+Event:<input type="text" name="event"><br><br>
+<input type="submit">
+</form>
+</body>
+</html>
