@@ -1,0 +1,29 @@
+6. Course Enrollment Page
+<!DOCTYPE html>
+<html>
+<body>
+<form method="post">
+<table border="1">
+<tr>
+<th>Course</th>
+<th>Duration</th>
+</tr>
+<tr>
+<td>PHP</td>
+<td>3 Months</td>
+</tr>
+</table>
+<br>
+<select name="course">
+<option>PHP</option>
+<option>Java</option>
+</select>
+<input type="submit">
+</form>
+<?php
+if($_POST){
+echo $_POST['course'];
+}
+?>
+</body>
+</html>
