@@ -1,0 +1,45 @@
+1. Personal Profile Web Page
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+<style>
+body{
+font-family:Arial;
+background:#f2f2f2;
+text-align:center;
+}
+div{
+background:white;
+width:300px;
+margin:auto;
+padding:20px;
+border-radius:10px;
+}
+img{
+width:120px;
+height:120px;
+border-radius:50%;
+}
+a{
+text-decoration:none;
+color:blue;
+}
+</style>
+</head>
+<body>
+<div>
+<h1>My Profile</h1>
+<img src="profile.jpg">
+<p><b>Name:</b> Rahul</p>
+<p><i>Student of Computer Engineering</i></p>
+<a href="https://www.google.com">Visit Website</a>
+<?php
+date_default_timezone_set("Asia/Kolkata");
+echo "<h3>Welcome User</h3>";
+echo date("d-m-Y h:i:s A");
+?>
+</div>
+1
+</body>
+</html>
