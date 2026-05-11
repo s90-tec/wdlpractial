@@ -1,0 +1,18 @@
+3. Online Quiz Registration
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function show(){
+var n=document.getElementById("name").value;
+document.getElementById("ans").innerHTML=n;
+}
+</script>
+</head>
+<body>
+Name:<input type="text" id="name"><br><br>
+<button onclick="show()">Show</button>
+<h3 id="ans"></h3>
+9
+</body>
+</html>
