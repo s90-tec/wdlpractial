@@ -1,0 +1,18 @@
+12. Banking Customer Form
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function calculate(){
+var p=parseInt(document.getElementById("p").value);
+var si=(p*5*2)/100;
+document.getElementById("ans").innerHTML=si;
+}
+</script>
+</head>
+<body>
+Amount:<input type="number" id="p"><br><br>
+<button onclick="calculate()">Calculate</button>
+<h3 id="ans"></h3>
+</body>
+</html>
