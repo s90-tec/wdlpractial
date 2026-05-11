@@ -1,0 +1,17 @@
+19. Tourism Webpage
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function show(){
+document.getElementById("ans").innerHTML="Welcome to Goa";
+}
+</script>
+</head>
+<body>
+<img src="goa.jpg" width="150">
+<br><br>
+<button onclick="show()">Show</button>
+<h3 id="ans"></h3>
+</body>
+</html>
