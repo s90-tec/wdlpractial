@@ -1,0 +1,17 @@
+16. Movie Booking Webpage
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function msg(){
+alert("Ticket Booked");
+}
+</script>
+</head>
+<body>
+<form method="post" onsubmit="msg()">
+Movie:<input type="text" name="movie"><br><br>
+<input type="submit">
+</form>
+</body>
+</html>
