@@ -1,0 +1,22 @@
+14. Restaurant Menu Webpage
+<!DOCTYPE html>
+<html>
+<body>
+<table border="1">
+<tr>
+<th>Item</th>
+<th>Image</th>
+</tr>
+<tr>
+<td>Pizza</td>
+<td><img src="pizza.jpg" width="100"></td>
+</tr>
+</table>
+<?php
+$menu=array("Pizza","Burger","Pasta");
+foreach($menu as $m){
+echo $m."<br>";
+}
+?>
+</body>
+</html>
