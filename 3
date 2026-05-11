@@ -1,0 +1,45 @@
+3. College Information Webpage
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table{
+border-collapse:collapse;
+}
+td,th{
+border:1px solid black;
+padding:10px;
+}
+</style>
+<script>
+function showDept(){
+document.getElementById("d").innerHTML="Computer Department";
+}
+</script>
+</head>
+<body>
+<table>
+<tr>
+<th>Department</th>
+<th>Courses</th>
+</tr>
+<tr>
+<td>CSE</td>
+<td>
+<table>
+<tr>
+<td>Java</td>
+<td>PHP</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<img src="college.jpg" width="150">
+<br><br>
+<a href="https://www.google.com">College Link</a>
+<br><br>
+<button onclick="showDept()">Show</button>
+<h3 id="d"></h3>
+</body>
+</html>
