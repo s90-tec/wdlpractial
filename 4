@@ -1,0 +1,27 @@
+4. Employee Registration Form
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validate(){
+var e=document.f1.email.value;
+if(e==""){
+alert("Enter Email");
+return false;
+}
+}
+</script>
+</head>
+<body>
+<form name="f1" method="post" onsubmit="return validate()">
+Name:<input type="text" name="name"><br><br>
+Email:<input type="email" name="email"><br><br>
+<input type="submit">
+</form>
+<?php
+if($_POST){
+echo $_POST['name'];
+}
+?>
+</body>
+</html>
