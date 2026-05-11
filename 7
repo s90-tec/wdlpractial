@@ -1,0 +1,37 @@
+7. Library Webpage
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function fine(){
+5
+var d=parseInt(document.getElementById("days").value);
+var f=0;
+switch(true){
+case(d<=5):
+f=d*2;
+break;
+default:
+f=d*5;
+}
+}
+</script>
+</head>
+<body>
+<table border="1">
+document.getElementById("ans").innerHTML=f;
+<tr>
+<th>Book</th>
+<th>Image</th>
+</tr>
+<tr>
+<td>Java</td>
+<td><img src="book.jpg" width="100"></td>
+</tr>
+</table>
+<br>
+<input type="number" id="days">
+<button onclick="fine()">Calculate</button>
+<h3 id="ans"></h3>
+</body>
+</html>
