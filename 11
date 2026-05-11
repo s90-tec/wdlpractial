@@ -1,0 +1,30 @@
+11. Travel Booking Webpage
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function show(){
+var p=document.getElementById("place").value;
+document.getElementById("ans").innerHTML=p;
+}
+</script>
+</head>
+<body>
+<table border="1">
+<tr>
+<th>Package</th>
+<th>Price</th>
+</tr>
+<tr>
+<td>Goa</td>
+<td>5000</td>
+</tr>
+</table>
+<select id="place" onchange="show()">
+<option>Goa</option>
+8
+<option>Kashmir</option>
+</select>
+<h3 id="ans"></h3>
+</body>
+</html>
