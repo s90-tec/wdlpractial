@@ -1,0 +1,28 @@
+8. Patient Appointment Form
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validate(){
+var n=document.f1.name.value;
+if(n==""){
+alert("Enter Name");
+return false;
+}
+}
+</script>
+</head>
+6
+<body>
+<form name="f1" method="post" onsubmit="return validate()">
+Name:<input type="text" name="name"><br><br>
+Date:<input type="date" name="date"><br><br>
+<input type="submit">
+</form>
+<?php
+if($_POST){
+echo $_POST['name'];
+}
+?>
+</body>
+</html>
